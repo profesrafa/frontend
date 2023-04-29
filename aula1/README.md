@@ -1,5 +1,28 @@
+# Tópicos de HTML5
 
-# Tags marcadoras de texto
+[Estrutura básica](https://github.com/profesrafa/frontend/#estrutura-básica)
+
+[ags marcadoras de texto]([Estrutura básica](https://github.com/profesrafa/frontend/#tags-marcadoras-de-texto)
+
+## Estrutura básica
+
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <h1>Bem-vindo ao meu site!</h1>
+ <p>Este é um exemplo de um site simples.</p>
+ <img src="imagem.jpg" alt="Imagem de exemplo">
+</body>
+</html>
+``` 
+
+## Tags marcadoras de texto
 
 ```html
 
