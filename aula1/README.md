@@ -2,6 +2,7 @@
 
 [Estrutura básica](https://github.com/profesrafa/frontend/tree/main/aula1#estrutura-básica)
 
+[Exibindo imagens](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#exibindo-imagens)
 
 [Tags marcadoras de texto](https://github.com/profesrafa/frontend/tree/main/aula1#tags-marcadoras-de-texto)
 
