@@ -33,6 +33,8 @@ Estrutura básica
 </figure>
 ```
 
+Segue a tabela abaixo com alguns atributos. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img#exemplo_da_implementa%C3%A7%C3%A3o_do_html5).
+
 | Atributo | Descrição | Exemplo |
 | --- | --- | --- |
 | `alt` | Especifica o texto alternativo para uma imagem, quando ela não pode ser exibida | `<img src="imagem.jpg" alt="Descrição da imagem">` |
