@@ -1,6 +1,8 @@
 
 # Tags marcadoras de texto
 
+'''
+
  <i> Define um texto em itálico.
  
  <em> Define um texto em ênfase.
@@ -40,3 +42,4 @@
  <cite> Define uma citação de, por exemplo, um título de uma obra.
  
  <dfn> Destaca uma definição (usualmente se faz em itálico).
+ '''
