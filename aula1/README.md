@@ -22,6 +22,31 @@
 </body>
 </html>
 ``` 
+## Exibindo imagens
+
+Estrutura básica
+```html
+<figure>
+  <img src="imagem.jpg" alt="Minha Figura">
+  <figcaption>Informações da Figura</figcaption>
+</figure>
+```
+
+| Atributo | Descrição | Exemplo |
+| --- | --- | --- |
+| `alt` | Especifica o texto alternativo para uma imagem, quando ela não pode ser exibida | `<img src="imagem.jpg" alt="Descrição da imagem">` |
+| `src` | Especifica o URL da imagem | `<img src="imagem.jpg">` |
+| `width` | Especifica a largura da imagem em pixels | `<img src="imagem.jpg" width="300">` |
+| `height` | Especifica a altura da imagem em pixels | `<img src="imagem.jpg" height="200">` |
+| `title` | Especifica o título da imagem (quando o usuário passa o mouse sobre ela) | `<img src="imagem.jpg" title="Título da imagem">` |
+| `loading` | Especifica quando a imagem deve ser carregada | `<img src="imagem.jpg" loading="lazy">` |
+| `sizes` | Especifica tamanhos de imagem para diferentes dispositivos | `<img srcset="imagem-300.jpg 300w, imagem-600.jpg 600w" sizes="(max-width: 768px) 100vw, 50vw">` |
+| `srcset` | Especifica vários arquivos de imagem para diferentes resoluções de tela | `<img srcset="imagem-300.jpg 300w, imagem-600.jpg 600w" sizes="(max-width: 768px) 100vw, 50vw" src="imagem.jpg">` |
+| `decoding` | Especifica como o navegador deve decodificar a imagem | `<img src="imagem.jpg" decoding="async">` |
+| `crossorigin` | Especifica se a requisição da imagem deve ter o atributo `cross-origin` | `<img src="imagem.jpg" crossorigin="anonymous">` |
+| `usemap` | Especifica a imagem como um mapa de imagem e vincula um mapa de imagem a ela | `<img src="imagem.jpg" usemap="#mapa">` |
+| `ismap` | Especifica que a imagem é um mapa de imagem | `<img src="imagem.jpg" ismap>` |
+| `referrerpolicy` | Especifica a política de referenciamento para a imagem | `<img src="imagem.jpg" referrerpolicy="no-referrer">` |
 
 ## Tags marcadoras de texto
 
