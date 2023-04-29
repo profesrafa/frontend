@@ -25,6 +25,9 @@
 
 ## Tags marcadoras de texto
 
+O uso das tags abaixo passa a ter sentido ao complementar-se a página usando a linguagem CSS. Mediante seu uso, podemos definir exatamente como queremos que nossa página seja vista, por exemplo, todas as citações (tags tipo quote).
+
+
 ```html
 
  <i> Define um texto em itálico.
