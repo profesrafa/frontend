@@ -4,6 +4,8 @@
 
 [Exibindo imagens](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#exibindo-imagens)
 
+[Criando links](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#criando-links)
+
 [Tags marcadoras de texto](https://github.com/profesrafa/frontend/tree/main/aula1#tags-marcadoras-de-texto)
 
 ## Estrutura básica
@@ -33,7 +35,7 @@ Estrutura básica
 </figure>
 ```
 
-Segue a tabela abaixo com alguns atributos. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img#exemplo_da_implementa%C3%A7%C3%A3o_do_html5).
+Segue  abaixo a tabela com alguns atributos. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img#exemplo_da_implementa%C3%A7%C3%A3o_do_html5).
 
 | Atributo | Descrição | Exemplo |
 | --- | --- | --- |
@@ -50,6 +52,33 @@ Segue a tabela abaixo com alguns atributos. Para uma referência mais completa c
 | `usemap` | Especifica a imagem como um mapa de imagem e vincula um mapa de imagem a ela | `<img src="imagem.jpg" usemap="#mapa">` |
 | `ismap` | Especifica que a imagem é um mapa de imagem | `<img src="imagem.jpg" ismap>` |
 | `referrerpolicy` | Especifica a política de referenciamento para a imagem | `<img src="imagem.jpg" referrerpolicy="no-referrer">` |
+
+
+## Criando links
+
+Estrutura básica
+```html
+<a href="https://www.google.com">Google</a>
+```
+
+Segue  abaixo a tabela com alguns atributos. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a).
+
+
+
+| Atributo  | Descrição  | Exemplo |
+|---|---|---|
+| `href`  | Especifica o destino do link  | `<a href="https://www.google.com">Google</a>`  |
+| `target`  | Especifica onde abrir o link  | `<a href="https://www.google.com" target="_blank">Google</a>`  |
+| `download`  | Especifica que o link é para ser baixado  | `<a href="/imagens/imagem.png" download>Download da imagem</a>`  |
+| `rel`  | Especifica a relação do link com a página atual  | `<a href="https://www.instagram.com" rel="nofollow">Instagram</a>`  |
+| `hreflang`  | Especifica o idioma do destino do link  | `<a href="https://www.google.com" hreflang="en">Google</a>`  |
+| `type`  | Especifica o tipo de mídia do destino do link  | `<a href="/audio/audio.mp3" type="audio/mpeg">Reproduzir áudio</a>`  |
+| `referrerpolicy`  | Especifica a política de referência para informações confidenciais  | `<a href="https://www.google.com" referrerpolicy="origin">Google</a>`  |
+| `ping`  | Especifica uma lista de URLs para receber notificações quando o link for seguido  | `<a href="https://www.google.com" ping="/analytics.php">Google</a>`  |
+| `media`  | Especifica a mídia a qual a mídia relacionada é adaptada  | `<a href="/imagens/imagem.png" media="(max-width: 600px)">Imagem para dispositivos móveis</a>`  |
+| `crossorigin`  | Especifica como as requisições são feitas quando a página de origem e a página de destino possuem origens diferentes  | `<a href="https://www.google.com" crossorigin="anonymous">Google</a>`  |
+| `relList`  | Especifica a relação do link com a página atual, de forma programática  | `<a href="https://www.instagram.com" relList="nofollow">Instagram</a>`  |
+| `downloadHint`  | Especifica sugestões para o nome do arquivo quando o link é baixado  | `<a href="/imagens/imagem.png" download downloadHint="imagem-1.png">Download da imagem</a>`  |
 
 ## Tags marcadoras de texto
 
