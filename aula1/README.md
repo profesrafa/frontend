@@ -1,8 +1,9 @@
 # Tópicos de HTML5
 
-[Estrutura básica](https://github.com/profesrafa/frontend/#estrutura-básica)
+[Estrutura básica](https://github.com/profesrafa/frontend/tree/main/aula1#estrutura-básica)
 
-[ags marcadoras de texto]([Estrutura básica](https://github.com/profesrafa/frontend/#tags-marcadoras-de-texto)
+
+[Tags marcadoras de texto](https://github.com/profesrafa/frontend/tree/main/aula1#tags-marcadoras-de-texto)
 
 ## Estrutura básica
 
