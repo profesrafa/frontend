@@ -1,7 +1,7 @@
 
 # Tags marcadoras de texto
 
-'''
+```html
 
  <i> Define um texto em itálico.
  
@@ -42,4 +42,4 @@
  <cite> Define uma citação de, por exemplo, um título de uma obra.
  
  <dfn> Destaca uma definição (usualmente se faz em itálico).
- '''
+```
