@@ -12,15 +12,13 @@
 
 [Exemplo de div e span](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#exemplo-de-div-e-span)
 
-[Formulários]()
- - [Listas suspensas]()
- - [Caixas de texto]()
- - [Campos de texto]()
- - [Campos de texto oculto]()
- - [Campos de texto invisíveis]()
- - [Botões tipo rádio]()
- - [Elementos tipo check box]()
- - [Botões]()
+[Formulários](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#formul%C3%A1rios)
+ - [Listas suspensas](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#listas-suspensas)
+ - [Caixas de texto](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#caixas-de-texto)
+ - [Campos de texto](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#campos-de-texto)
+ - [Botões tipo rádio](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#bot%C3%B5es-tipo-r%C3%A1dio)
+ - [Elementos tipo check box](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#elementos-tipo-check-box)
+ - [Botões](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#bot%C3%B5es)
 
 ## Estrutura básica
 
@@ -206,10 +204,95 @@ Para mais informações consulte o site [developer.mozilla.org](https://develope
 
 ## Formulários
 ### Listas suspensas
+Estrutura básica
+
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo</title>
+</head>
+<body>
+
+</body>
+</html>
+```
 ### Caixas de texto
+Estrutura básica
+
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo</title>
+</head>
+<body>
+
+</body>
+</html>
+```
 ### Campos de texto
-### Campos de texto oculto
-### Campos de texto invisíveis
+Estrutura básica
+
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+#### Campos de texto oculto
+#### Campos de texto invisíveis
 ### Botões tipo rádio
+Estrutura básica
+
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo</title>
+</head>
+<body>
+
+</body>
+</html>
+```
 ### Elementos tipo check box
+Estrutura básica
+
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo</title>
+</head>
+<body>
+
+</body>
+</html>
+```
 ### Botões
+Estrutura básica
+
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+#### Botão
