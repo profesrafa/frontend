@@ -8,6 +8,8 @@
 
 [Criando links](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#criando-links)
 
+[Tabelas](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#tabelas)
+
 ## Estrutura básica
 
 ```html
@@ -112,19 +114,20 @@ Segue  abaixo a tabela com alguns atributos. Para uma referência mais completa 
 
 ## Tabelas
 
-https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table#examples
+Para criar tabelas de forma fácil e rápido use o site [Tables Generator](https://www.tablesgenerator.com/html_tables).
+Para mais informações consulte o site [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table).
 
 | Atributo   | Descrição   | Exemplo  |
 |---|---|---|
-| align | Especifica a posição horizontal do conteúdo da tabela em relação à margem esquerda ou direita da página. | `<table align="center">` |
-| bgcolor | Define a cor de fundo da tabela. | `<table bgcolor="#f2f2f2">` |
-| border | Define a largura das bordas da tabela. | `<table border="1">` |
-| cellpadding | Define a quantidade de espaço em pixels entre o conteúdo da célula e sua borda interna. | `<table cellpadding="5">` |
-| cellspacing | Define a quantidade de espaço em pixels entre as células da tabela. | `<table cellspacing="2">` |
-| frame | Define se as bordas da tabela devem ser exibidas ou não. | `<table frame="void">` |
-| rules | Define a exibição das bordas internas da tabela. | `<table rules="all">` |
-| summary | Fornece uma breve descrição da tabela. | `<table summary="Esta tabela apresenta os resultados da pesquisa">` |
-| width | Define a largura da tabela em pixels ou em porcentagem da largura da página. | `<table width="80%">` |
+| `align` | Especifica a posição horizontal do conteúdo da tabela em relação à margem esquerda ou direita da página. | `<table align="center">` |
+| `bgcolor` | Define a cor de fundo da tabela. | `<table bgcolor="#f2f2f2">` |
+| `border` | Define a largura das bordas da tabela. | `<table border="1">` |
+| `cellpadding` | Define a quantidade de espaço em pixels entre o conteúdo da célula e sua borda interna. | `<table cellpadding="5">` |
+| `cellspacing` | Define a quantidade de espaço em pixels entre as células da tabela. | `<table cellspacing="2">` |
+| `frame` | Define se as bordas da tabela devem ser exibidas ou não. | `<table frame="void">` |
+| `rules` | Define a exibição das bordas internas da tabela. | `<table rules="all">` |
+| `summary` | Fornece uma breve descrição da tabela. | `<table summary="Esta tabela apresenta os resultados da pesquisa">` |
+| `width` | Define a largura da tabela em pixels ou em porcentagem da largura da página. | `<table width="80%">` |
 
 
 
