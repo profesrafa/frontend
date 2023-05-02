@@ -203,7 +203,24 @@ Para mais informações consulte o site [developer.mozilla.org](https://develope
 ```
 
 ## Formulários
+
+Segue  abaixo a tabela com alguns atributos do `<form>`. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/form).
+
+| Atributo  | Descrição | Exemplo |
+| --- | --- | --- |
+| action | Especifica o URL para onde os dados do formulário serão enviados quando o formulário for submetido. | `<form action="https://www.example.com/submit-form" method="post"></form>` |
+| method | Especifica o método de envio dos dados do formulário. Os valores aceitos são "get" e "post". | `<form action="https://www.example.com/submit-form" method="post"></form>` |
+| autocomplete | Especifica se o autocomplete dos campos do formulário está ativado ou desativado. Os valores aceitos são "on" e "off". | `<form action="https://www.example.com/submit-form" method="post" autocomplete="on"></form>` |
+| enctype | Especifica o tipo de codificação a ser usada para os dados do formulário. Os valores aceitos são "application/x-www-form-urlencoded", "multipart/form-data" e "text/plain". | `<form action="https://www.example.com/submit-form" method="post" enctype="multipart/form-data"></form>` |
+| name | Especifica um nome para o formulário. | `<form action="https://www.example.com/submit-form" method="post" name="my-form"></form>` |
+| novalidate | Especifica que o formulário não deve ser validado quando for submetido. | `<form action="https://www.example.com/submit-form" method="post" novalidate></form>` |
+| target | Especifica onde exibir a resposta após o envio do formulário. Os valores aceitos são "_self", "_blank", "_parent" e "_top". | `<form action="https://www.example.com/submit-form" method="post" target="_blank"></form>` |
+| accept-charset | Especifica o conjunto de caracteres que será usado para codificar os dados do formulário. | `<form action="https://www.example.com/submit-form" method="post" accept-charset="UTF-8"></form>` |
+| class | Especifica uma ou mais classes CSS para o elemento do formulário. | `<form action="https://www.example.com/submit-form" method="post" class="my-form"></form>` |
+| id | Especifica um ID único para o elemento do formulário. | `<form action="https://www.example.com/submit-form" method="post" id="form1"></form>` |
+
 ### Listas suspensas
+
 Estrutura básica
 
 ```html
@@ -214,10 +231,33 @@ Estrutura básica
  <title>Exemplo</title>
 </head>
 <body>
-
+ <form name="formulário">
+      Selecione um valor:
+<select name="valores">
+  <option value="valor1">Valor 1</option>
+  <option value="valor2" selected>Valor 2</option>
+  <option value="valor3">Valor 3</option>
+</select>
+  </form>
 </body>
 </html>
 ```
+Segue  abaixo a tabela com alguns atributos do `<select>`. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select).
+
+| Atributo | Descrição | Exemplo |
+| --- | --- | --- |
+| name | Define um nome para o elemento | `<select name="frutas">` |
+| autofocus | Especifica que o elemento deve receber o foco automaticamente quando a página é carregada | `<select autofocus>` |
+| disabled | Desativa o elemento para impedir que ele seja selecionado ou submetido | `<select disabled>` |
+| form | Especifica o formulário ao qual o elemento pertence | `<select form="formulario">` |
+| multiple | Permite que o usuário selecione múltiplas opções | `<select multiple>` |
+| required | Especifica que o elemento é obrigatório e não pode ser submetido sem uma seleção | `<select required>` |
+| size | Define o número de opções visíveis em um menu suspenso | `<select size="3">` |
+| formaction | Especifica o URL de destino para o formulário quando o elemento é submetido | `<select formaction="/enviar.php">` |
+| formenctype | Especifica o tipo de codificação de caracteres usado para enviar dados do formulário | `<select formenctype="multipart/form-data">` |
+| formmethod | Especifica o método HTTP usado para enviar dados do formulário | `<select formmethod="post">` |
+| formtarget | Especifica o destino da resposta do servidor ao enviar dados do formulário | `<select formtarget="_blank">` |
+
 ### Caixas de texto
 Estrutura básica
 
