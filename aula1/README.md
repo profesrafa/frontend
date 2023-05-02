@@ -2,11 +2,11 @@
 
 [Estrutura básica](https://github.com/profesrafa/frontend/tree/main/aula1#estrutura-básica)
 
+[Tags marcadoras de texto](https://github.com/profesrafa/frontend/tree/main/aula1#tags-marcadoras-de-texto)
+
 [Exibindo imagens](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#exibindo-imagens)
 
 [Criando links](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#criando-links)
-
-[Tags marcadoras de texto](https://github.com/profesrafa/frontend/tree/main/aula1#tags-marcadoras-de-texto)
 
 ## Estrutura básica
 
@@ -25,6 +25,34 @@
 </body>
 </html>
 ``` 
+## Tags marcadoras de texto
+
+O uso das tags abaixo passa a ter sentido ao complementar-se a página usando a linguagem CSS. Mediante seu uso, podemos definir exatamente como queremos que nossa página seja vista, por exemplo, todas as citações (tags tipo quote).
+
+| Tag | Descrição | 
+| --- | --- |
+| `<i>` | Define um texto em itálico.|
+| `<em>` | Define um texto em ênfase.|
+| `<u>` | Define um texto sublinhado.|
+| `<small>` | Define um texto de menor tamanho.|
+| `<sub>` | Define um texto tipo subíndice (aparece mais abaixo e em menor tamanho).|
+| `<sup>` | Define um texto sobrescrito (aparece mais acima e em tamanho menor).|
+| `<ins>` | Define um texto inserido (geralmente equivale ao sublinhado).|
+| `<do>` | Define um texto eliminado (geralmente se mostra tachado).|
+| `<code>` | Define uma porção de texto tipo programa.|
+| `<kbd>` | Define uma entrada de texto a partir do teclado (igual ao anterior).|
+| `<samp>` | Define um exemplo (igual ao anterior).|
+| `<var>` | Define uma variável (usualmente em itálico).|
+| `<pre>` | Define um texto pré-formatado (usualmente respeita os espaços em branco).|
+| `<abbr>` | Define uma abreviatura.|
+| `<address>` | Define um endereço pessoal.|
+| `<bdo>` | Define a direção do texto (direita a esquerda o vice-versa).|
+| `<blockquote>` | Define uma seção que corresponde a uma cita de outro texto (altera os margens).|
+| `<q>` | Define uma citação de uma ou poucas palavras.|
+| `<cite>` | Define uma citação de, por exemplo, um título de uma obra.|
+| `<dfn>` | Destaca uma definição (usualmente se faz em itálico).| 
+
+
 ## Exibindo imagens
 
 Estrutura básica
@@ -80,50 +108,23 @@ Segue  abaixo a tabela com alguns atributos. Para uma referência mais completa 
 | `relList`  | Especifica a relação do link com a página atual, de forma programática  | `<a href="https://www.instagram.com" relList="nofollow">Instagram</a>`  |
 | `downloadHint`  | Especifica sugestões para o nome do arquivo quando o link é baixado  | `<a href="/imagens/imagem.png" download downloadHint="imagem-1.png">Download da imagem</a>`  |
 
-## Tags marcadoras de texto
-
-O uso das tags abaixo passa a ter sentido ao complementar-se a página usando a linguagem CSS. Mediante seu uso, podemos definir exatamente como queremos que nossa página seja vista, por exemplo, todas as citações (tags tipo quote).
 
 
-```html
+## Tabelas
 
- <i> Define um texto em itálico.
- 
- <em> Define um texto em ênfase.
- 
- <u> Define um texto sublinhado.
- 
- <small> Define um texto de menor tamanho.
- 
- <sub> Define um texto tipo subíndice (aparece mais abaixo e em menor tamanho).
- 
- <sup> Define um texto sobrescrito (aparece mais acima e em tamanho menor).
- 
- <ins> Define um texto inserido (geralmente equivale ao sublinhado).
- 
- <do> Define um texto eliminado (geralmente se mostra tachado).
- 
- <code> Define uma porção de texto tipo programa.
- 
- <kbd> Define uma entrada de texto a partir do teclado (igual ao anterior).
- 
- <samp> Define um exemplo (igual ao anterior).
- 
- <var> Define uma variável (usualmente em itálico).
- 
- <pre> Define um texto pré-formatado (usualmente respeita os espaços em branco).
- 
- <abbr> Define uma abreviatura.
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table#examples
 
- <address> Define um endereço pessoal.
- 
- <bdo> Define a direção do texto (direita a esquerda o vice-versa).
- 
- <blockquote> Define uma seção que corresponde a uma cita de outro texto (altera os margens).
- 
- <q> Define uma citação de uma ou poucas palavras.
- 
- <cite> Define uma citação de, por exemplo, um título de uma obra.
- 
- <dfn> Destaca uma definição (usualmente se faz em itálico).
-```
+| Atributo   | Descrição   | Exemplo  |
+|---|---|---|
+| align | Especifica a posição horizontal do conteúdo da tabela em relação à margem esquerda ou direita da página. | `<table align="center">` |
+| bgcolor | Define a cor de fundo da tabela. | `<table bgcolor="#f2f2f2">` |
+| border | Define a largura das bordas da tabela. | `<table border="1">` |
+| cellpadding | Define a quantidade de espaço em pixels entre o conteúdo da célula e sua borda interna. | `<table cellpadding="5">` |
+| cellspacing | Define a quantidade de espaço em pixels entre as células da tabela. | `<table cellspacing="2">` |
+| frame | Define se as bordas da tabela devem ser exibidas ou não. | `<table frame="void">` |
+| rules | Define a exibição das bordas internas da tabela. | `<table rules="all">` |
+| summary | Fornece uma breve descrição da tabela. | `<table summary="Esta tabela apresenta os resultados da pesquisa">` |
+| width | Define a largura da tabela em pixels ou em porcentagem da largura da página. | `<table width="80%">` |
+
+
+
