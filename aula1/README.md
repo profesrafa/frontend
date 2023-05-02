@@ -10,6 +10,8 @@
 
 [Tabelas](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#tabelas)
 
+[Exemplo de div e span]()
+
 ## Estrutura básica
 
 ```html
@@ -130,4 +132,64 @@ Para mais informações consulte o site [developer.mozilla.org](https://develope
 | `width` | Define a largura da tabela em pixels ou em porcentagem da largura da página. | `<table width="80%">` |
 
 
+## Exemplo de div e span
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Exemplo de div e span</title>
+</head>
+<body>
+<!-- Exemplo de um código CSS dentro do HTML -->
+<style>
+    #cabecalho{
+        background-color: #cccccc;
+        width: 600px;
+        padding: 40px 2%;
+        color: white;
+        text-align: center;
+    }
+    #corpo{
+        background-color: red;
+        width: 600px;
+        padding: 10px 2%;
+    }
+    #rodape{
+        width: 600px;
+        padding: 10px 2%;
+        background-color: #888888;
+        color: white;
+        text-align: center;
+    }
+    .sessao_conteudo{
+        text-align: center;
+        width: 100%;
+        background-color: green;
+    }
+</style>
+  <div id="cabecalho">
+    <h2>Meu documento sobre div HTML</h2>
+  </div>
+  <div id="corpo">
+    <div class="sessao_conteudo">
+        <h3>Meu conteúdo 01</h3>
+          <p>Meu parágrafo contendo texto 1 </p>
+          <p>Meu parágrafo contendo texto 2 </p>
+    </div>
+    <div class="sessao_conteudo">
+        <h3>Meu conteúdo 02</h3>
+        <p>Meu parágrafo contendo texto 1 </p>
+        <p>Meu parágrafo contendo texto 2 </p>
+    </div>    
+</div>
+<span>meu span 1 </span>
+<span>meu span 2 </span>
+<div>minha div 1</div>
+<div>minha div 2</div>
+<div id="rodape">
+   <p>Todos os direitos reservados</p>
+</div>
+</body>
+</html>
+```
