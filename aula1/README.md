@@ -20,6 +20,8 @@
  - [Elementos tipo check box](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#elementos-tipo-check-box)
  - [Botões](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#bot%C3%B5es)
 
+[Slides](https://github.com/profesrafa/frontend/blob/main/aula1/README.md#slides)
+
 ## Estrutura básica
 
 ```html
@@ -412,3 +414,11 @@ Estrutura básica
 </html>
 ```
 #### Botão
+
+### Slides
+
+<p>Click na imagem para realizar o download:<p>
+
+<a href="https://github.com/profesrafa/frontend/blob/main/aula1/Aula1.pdf" download="aula1">
+  <img src="https://cdn-icons-png.flaticon.com/512/5518/5518068.png" alt="PDF File" width="142" height="142">
+</a>
