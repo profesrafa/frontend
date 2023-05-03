@@ -266,13 +266,33 @@ Estrutura básica
 <html lang=”pt-br”>
 <head>
   <meta charset="utf-8">
- <title>Exemplo</title>
+ <title>Exemplo de Campos de text</title>
 </head>
 <body>
-
+<form name=”formulário”>
+<textarea name="textarea"
+   rows="10" cols="50"> Escreva alguma coisa aqui! </textarea>
+<form>
 </body>
 </html>
 ```
+Segue  abaixo a tabela com alguns atributos do `<textarea>`. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/textarea).
+
+
+
+| Atributo | Descrição | Exemplo |
+| -------- | --------- | ------- |
+| cols | Define o número de colunas visíveis em uma caixa de texto | `<textarea cols="50"></textarea>` |
+| rows | Define o número de linhas visíveis em uma caixa de texto | `<textarea rows="10"></textarea>` |
+| name | Define o nome da caixa de texto | `<textarea name="mensagem"></textarea>` |
+| required | Define que a caixa de texto é obrigatória em um formulário | `<textarea required></textarea>` |
+| disabled | Define que a caixa de texto deve ser desativada | `<textarea disabled></textarea>` |
+| readonly | Define que a caixa de texto não pode ser editada | `<textarea readonly></textarea>` |
+| autofocus | Define que a caixa de texto deve ter foco automaticamente ao carregar a página | `<textarea autofocus></textarea>` |
+| placeholder | Define um texto de instrução que aparece dentro da caixa de texto | `<textarea placeholder="Digite sua mensagem"></textarea>` |
+| form | Define o ID do formulário a que a caixa de texto pertence | `<textarea form="form-mensagem"></textarea>` |
+| maxlength | Define o número máximo de caracteres que podem ser inseridos na caixa de texto | `<textarea maxlength="100"></textarea>` |
+
 ### Campos de texto
 Estrutura básica
 
@@ -281,15 +301,70 @@ Estrutura básica
 <html lang=”pt-br”>
 <head>
   <meta charset="utf-8">
- <title>Exemplo</title>
+ <title>Exemplo de Campos de texto</title>
 </head>
 <body>
-
+ <form name=”formulário”>
+  <input type=”text” />
+ </form>
 </body>
 </html>
 ```
-#### Campos de texto oculto
+
+#### Campos de texto oculto (password)
+Estrutura básica
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo de Campos de texto</title>
+</head>
+<body>
+ <form name=”formulário”>
+   Senha: <input type=”password” /><br>
+ </form>
+</body>
+</html>
+```
+
 #### Campos de texto invisíveis
+Estrutura básica
+```html
+<!DOCTYPE html>
+<html lang=”pt-br”>
+<head>
+  <meta charset="utf-8">
+ <title>Exemplo de Campos de texto</title>
+</head>
+<body>
+ <form name=”formulário”>
+   Senha: <input type=”hidden” /><br>
+ </form>
+</body>
+</html>
+```
+
+Segue  abaixo a tabela com alguns atributos do `<input>`. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input).
+
+| Atributo | Descrição | Exemplo |
+| -------- | --------- | ------- |
+| type | Especifica o tipo de input | `<input type="text">` |
+| name | Define o nome do input | `<input type="text" name="username">` |
+| value | Define o valor padrão do input | `<input type="checkbox" value="sim">` |
+| checked | Define se o input do tipo checkbox ou radio está selecionado | `<input type="radio" checked>` |
+| placeholder | Define uma mensagem de ajuda dentro do input | `<input type="text" placeholder="Digite seu nome">` |
+| required | Define se o input é obrigatório | `<input type="text" required>` |
+| disabled | Define se o input está desabilitado | `<input type="text" disabled>` |
+| readonly | Define se o input é somente leitura | `<input type="text" readonly>` |
+| size | Define a largura do input em caracteres | `<input type="text" size="20">` |
+| maxlength | Define o número máximo de caracteres permitidos no input | `<input type="text" maxlength="10">` |
+| minlength | Define o número mínimo de caracteres permitidos no input | `<input type="text" minlength="2">` |
+| pattern | Define uma expressão regular para validar o input | `<input type="text" pattern="[A-Za-z]+">` |
+| autofocus | Define se o input recebe o foco automaticamente ao carregar a página | `<input type="text" autofocus>` |
+| form | Define o ID do formulário ao qual o input pertence | `<input type="text" form="form_id">` |
+| autocomplete | Define se o input deve ser autocompletado pelo navegador | `<input type="text" autocomplete="on">` |
+
 ### Botões tipo rádio
 Estrutura básica
 
@@ -305,6 +380,7 @@ Estrutura básica
 </body>
 </html>
 ```
+Segue  abaixo a tabela com alguns atributos do `<textarea>`. Para uma referência mais completa consulte o site  [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/).
 ### Elementos tipo check box
 Estrutura básica
 
