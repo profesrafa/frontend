@@ -18,6 +18,20 @@ A seguir, serão listadas as unidades de medida válidas no CSS.
 |pc|Indica valor em picas (1pc = 12pt).|
 |px|Indica valor em pixels.|
 
+# Background
+
+| Atributo | Descrição | Exemplo |
+| --- | --- | --- |
+| background-color | Define a cor de fundo | `background-color: #FF0000;` |
+| background-image | Define a imagem de fundo | `background-image: url("imagem.png");` |
+| background-repeat | Define como a imagem de fundo deve se repetir | `background-repeat: repeat-x;` |
+| background-position | Define a posição inicial da imagem de fundo | `background-position: center top;` |
+| background-size | Define o tamanho da imagem de fundo | `background-size: cover;` |
+| background-attachment | Define se a imagem de fundo deve ser fixa ou rolar com o restante do conteúdo | `background-attachment: fixed;` |
+| background-clip | Define a área de recorte da imagem de fundo | `background-clip: padding-box;` |
+| background-origin | Define a origem da imagem de fundo | `background-origin: border-box;` |
+| background-blend-mode | Define o modo de mesclagem da imagem de fundo com a cor de fundo | `background-blend-mode: multiply;` |
+
 # `<p>` Parágrafo `</p>`
 
 
