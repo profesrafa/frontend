@@ -85,6 +85,25 @@ A seguir, serão listadas as unidades de medida válidas no CSS.
 | border-left-color | Define a cor da borda esquerda | `<nome da cor>`, `<valor RGB>`, `transparent` |
 
 # Margens
+
+```css
+/* Aplica para todos os quatro lados */
+margin: 1em;
+
+/* vertical | horizontal */
+margin: 5% auto;
+
+/* topo | horizontal | inferior */
+margin: 1em auto 2em;
+
+/* topo | direita | inferior | esquerda */
+margin: 2px 1em 0 auto;
+
+/* Valores globais */
+margin: inherit;
+margin: initial;
+margin: unset;
+```
 | Atributo | Descrição | Valores Suportados |
 | --- | --- | --- |
 | margin | Define o espaçamento externo de todos os lados do elemento | `auto`, `length`, `%%` |
