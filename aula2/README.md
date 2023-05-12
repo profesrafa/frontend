@@ -153,3 +153,38 @@ padding: unset;
 - `length`: Define o espaçamento em unidades de medida, como `px`, `em` ou `rem`.
 - `%`: Define o espaçamento como uma porcentagem do tamanho do elemento pai.
 - `auto`: Deixa o navegador decidir o espaçamento automaticamente.
+
+# Listas
+
+```css
+/* type */
+list-style: square;
+
+/* image */
+list-style: url("../img/shape.png");
+
+/* position */
+list-style: inside;
+
+/* type | position */
+list-style: georgian inside;
+
+/* type | image | position */
+list-style: lower-roman url("../img/shape.png") outside;
+
+/* Keyword value */
+list-style: none;
+
+/* Global values */
+list-style: inherit;
+list-style: initial;
+list-style: revert;
+list-style: revert-layer;
+list-style: unset;
+```
+| Atributo | Descrição | Valores Suportados |
+| --- | --- | --- |
+| list-style-type | Define o estilo do marcador da lista | disc, circle, square, decimal, decimal-leading-zero, lower-roman, upper-roman, lower-greek, lower-latin, upper-latin, armenian, georgian, lower-alpha, upper-alpha, none | 
+| list-style-position | Define a posição do marcador da lista em relação ao texto | inside, outside | 
+| list-style-image | Define uma imagem como marcador da lista | URL da imagem, none | 
+| list-style | Define todos os estilos de marcadores da lista de uma vez | combinando os valores dos outros atributos: `list-style: list-style-type list-style-position list-style-image;` |
