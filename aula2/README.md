@@ -20,56 +20,66 @@ A seguir, serão listadas as unidades de medida válidas no CSS.
 
 # Background
 
-| Atributo | Descrição | Exemplo |
+| Atributo | Descrição | Valores suportados |
 | --- | --- | --- |
-| background-color | Define a cor de fundo | `background-color: #FF0000;` |
-| background-image | Define a imagem de fundo | `background-image: url("imagem.png");` |
-| background-repeat | Define como a imagem de fundo deve se repetir | `background-repeat: repeat-x;` |
-| background-position | Define a posição inicial da imagem de fundo | `background-position: center top;` |
-| background-size | Define o tamanho da imagem de fundo | `background-size: cover;` |
-| background-attachment | Define se a imagem de fundo deve ser fixa ou rolar com o restante do conteúdo | `background-attachment: fixed;` |
-| background-clip | Define a área de recorte da imagem de fundo | `background-clip: padding-box;` |
-| background-origin | Define a origem da imagem de fundo | `background-origin: border-box;` |
-| background-blend-mode | Define o modo de mesclagem da imagem de fundo com a cor de fundo | `background-blend-mode: multiply;` |
+| background-color | Define a cor de fundo | nome da cor ou código hexadecimal |
+| background-image | Define a imagem de fundo | url('caminho/para/imagem') |
+| background-repeat | Define como a imagem de fundo se repete | repeat, repeat-x, repeat-y, no-repeat |
+| background-position | Define a posição inicial da imagem de fundo | left top, left center, left bottom, right top, right center, right bottom, center top, center center, center bottom, x% y%, xpos ypos |
+| background-size | Define o tamanho da imagem de fundo | auto, cover, contain, largura altura |
+| background-attachment | Define se a imagem de fundo é fixa ou rola com a página | fixed, scroll, local |
 
 # Textos
-
-| Atributo | Descrição | Exemplo |
+| Atributo | Descrição | Valores suportados |
 | --- | --- | --- |
-| color | Define a cor do texto | `color: blue;` |
-| font-family | Define a fonte utilizada | `font-family: Arial, sans-serif;` |
-| font-size | Define o tamanho da fonte | `font-size: 16px;` |
-| font-style | Define o estilo da fonte | `font-style: italic;` |
-| font-weight | Define a espessura da fonte | `font-weight: bold;` |
-| letter-spacing | Define o espaçamento entre caracteres | `letter-spacing: 1px;` |
-| line-height | Define a altura da linha de texto | `line-height: 1.5;` |
-| text-align | Define o alinhamento do texto | `text-align: center;` |
-| text-decoration | Define a decoração do texto (sublinhado, tachado, etc) | `text-decoration: underline;` |
-| text-transform | Transforma o texto em maiúsculo, minúsculo ou capitalizado | `text-transform: uppercase;` |
-| text-shadow | Define a sombra do texto | `text-shadow: 1px 1px 1px black;` |
-| white-space | Define como o espaçamento em branco é tratado | `white-space: nowrap;` |
-| word-break | Define como as palavras são quebradas em várias linhas | `word-break: break-all;` |
-| word-spacing | Define o espaçamento entre palavras | `word-spacing: 3px;` |
+| color | Define a cor do texto | Cor em hexadecimal, RGB, RGBA, nome da cor |
+| font-family | Define a família de fonte do texto | Nome da fonte, fonte genérica |
+| font-size | Define o tamanho da fonte | Valor em pixels (px), em pontos (pt), em ems (em), em porcentagem (%), em viewport width (vw) |
+| font-weight | Define a espessura da fonte | Números de 100 a 900, palavras-chave `normal` e `bold` |
+| font-style | Define o estilo da fonte | Palavras-chave `normal`, `italic` e `oblique` |
+| text-align | Define o alinhamento do texto | Palavras-chave `left`, `right`, `center`, `justify` |
+| text-decoration | Define a decoração do texto | Palavras-chave `none`, `underline`, `overline`, `line-through`, `blink` |
+| text-transform | Transforma o texto em maiúsculo, minúsculo ou capitalizado | Palavras-chave `none`, `uppercase`, `lowercase`, `capitalize` |
+| line-height | Define a altura da linha de texto | Valor em pixels (px), em ems (em), em porcentagem (%) |
+| letter-spacing | Define o espaçamento entre caracteres | Valor em pixels (px), ems (em) |
+| word-spacing | Define o espaçamento entre palavras | Valor em pixels (px), ems (em) |
+| white-space | Define como o espaçamento em branco é tratado | Palavras-chave `normal`, `nowrap`, `pre`, `pre-wrap`, `pre-line` |
 
-# `<p>` Parágrafo `</p>`
-
-
-| Atributo | Descrição | Exemplo |
+# Fontes
+| Atributo | Descrição | Valores Suportados |
 | --- | --- | --- |
-| `color` | Define a cor do texto | `<p style="color: blue;">Texto em azul</p>` |
-| `background-color` | Define a cor de fundo do elemento | `<p style="background-color: yellow;">Texto com fundo amarelo</p>` |
-| `font-size` | Define o tamanho da fonte do texto | `<p style="font-size: 16px;">Texto com fonte de 16 pixels</p>` |
-| `font-family` | Define a família de fontes do texto | `<p style="font-family: Arial, sans-serif;">Texto em Arial ou fonte sans-serif</p>` |
-| `font-weight` | Define a espessura da fonte do texto | `<p style="font-weight: bold;">Texto em negrito</p>` |
-| `font-style` | Define o estilo da fonte do texto | `<p style="font-style: italic;">Texto em itálico</p>` |
-| `text-align` | Define o alinhamento horizontal do texto | `<p style="text-align: center;">Texto centralizado</p>` |
-| `text-decoration` | Define a decoração do texto | `<p style="text-decoration: underline;">Texto sublinhado</p>` |
-| `text-transform` | Define a transformação do texto | `<p style="text-transform: uppercase;">Texto em caixa alta</p>` |
-| `line-height` | Define a altura da linha do texto | `<p style="line-height: 1.5;">Texto com altura de linha de 1.5 vezes o tamanho da fonte</p>` |
-| `letter-spacing` | Define o espaçamento entre letras do texto | `<p style="letter-spacing: 2px;">Texto com espaçamento de 2 pixels entre letras</p>` |
-| `word-spacing` | Define o espaçamento entre palavras do texto | `<p style="word-spacing: 5px;">Texto com espaçamento de 5 pixels entre palavras</p>` |
-| `padding` | Define o espaço interno do elemento | `<p style="padding: 10px;">Texto com espaçamento interno de 10 pixels</p>` |
-| `margin` | Define o espaço externo do elemento | `<p style="margin: 20px;">Texto com espaçamento externo de 20 pixels</p>` |
-| `border` | Define a borda do elemento | `<p style="border: 1px solid black;">Texto com borda preta sólida de 1 pixel</p>` |
-| `border-radius` | Define o raio dos cantos da borda do elemento | `<p style="border-radius: 10px;">Texto com borda com cantos arredondados de 10 pixels</p>` |
-| `box-shadow` | Define a sombra do elemento | `<p style="box-shadow: 2px 2px 5px grey;">Texto com sombra de 2 pixels na horizontal, 2 pixels na vertical e 5 pixels de desfoque em cinza</p>` |
+| font-family | Define a família da fonte | nome da fonte, fontes genéricas |
+| font-size | Define o tamanho da fonte | unidades de comprimento, porcentagem, tamanho absoluto |
+| font-style | Define o estilo da fonte | normal, italic, oblique |
+| font-weight | Define a espessura da fonte | normal, bold, bolder, lighter, 100-900 |
+| font-variant | Define a variante da fonte | normal, small-caps |
+| font-stretch | Define a largura da fonte | normal, condensed, expanded |
+| font-size-adjust | Define a largura da fonte relativa a uma fonte alternativa | número |
+| line-height | Define a altura da linha de texto | unidades de comprimento, número, porcentagem |
+| font | Define todas as propriedades de fonte em uma única declaração | estilo, variante, peso, tamanho, família |
+
+*Nota:* Os valores suportados para font-family incluem o nome da fonte (por exemplo, Arial), fontes genéricas (por exemplo, serif, sans-serif, monospace) e fontes externas que são referenciadas usando @font-face. Os valores suportados para font-size incluem unidades de comprimento (por exemplo, px, em, rem), porcentagem, tamanhos absolutos (por exemplo, medium, x-large) e tamanhos relativos (por exemplo, larger, smaller).
+
+# Bordas
+| Atributo | Descrição | Valores suportados |
+| --- | --- | --- |
+| border | Define a borda de um elemento | `width`, `style`, `color` |
+| border-width | Define a largura da borda | `thin`, `medium`, `thick`, `<valor>` |
+| border-style | Define o estilo da borda | `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset` |
+| border-color | Define a cor da borda | `<nome da cor>`, `<valor RGB>`, `transparent` |
+| border-top | Define a borda superior de um elemento | `width`, `style`, `color` |
+| border-top-width | Define a largura da borda superior | `thin`, `medium`, `thick`, `<valor>` |
+| border-top-style | Define o estilo da borda superior | `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset` |
+| border-top-color | Define a cor da borda superior | `<nome da cor>`, `<valor RGB>`, `transparent` |
+| border-right | Define a borda direita de um elemento | `width`, `style`, `color` |
+| border-right-width | Define a largura da borda direita | `thin`, `medium`, `thick`, `<valor>` |
+| border-right-style | Define o estilo da borda direita | `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset` |
+| border-right-color | Define a cor da borda direita | `<nome da cor>`, `<valor RGB>`, `transparent` |
+| border-bottom | Define a borda inferior de um elemento | `width`, `style`, `color` |
+| border-bottom-width | Define a largura da borda inferior | `thin`, `medium`, `thick`, `<valor>` |
+| border-bottom-style | Define o estilo da borda inferior | `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset` |
+| border-bottom-color | Define a cor da borda inferior | `<nome da cor>`, `<valor RGB>`, `transparent` |
+| border-left | Define a borda esquerda de um elemento | `width`, `style`, `color` |
+| border-left-width | Define a largura da borda esquerda | `thin`, `medium`, `thick`, `<valor>` |
+| border-left-style | Define o estilo da borda esquerda | `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset` |
+| border-left-color | Define a cor da borda esquerda | `<nome da cor>`, `<valor RGB>`, `transparent` |
