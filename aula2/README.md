@@ -83,3 +83,17 @@ A seguir, serão listadas as unidades de medida válidas no CSS.
 | border-left-width | Define a largura da borda esquerda | `thin`, `medium`, `thick`, `<valor>` |
 | border-left-style | Define o estilo da borda esquerda | `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset` |
 | border-left-color | Define a cor da borda esquerda | `<nome da cor>`, `<valor RGB>`, `transparent` |
+
+# Margens
+| Atributo | Descrição | Valores Suportados |
+| --- | --- | --- |
+| margin | Define o espaçamento externo de todos os lados do elemento | `auto`, `length`, `%%` |
+| margin-top | Define o espaçamento externo superior do elemento | `auto`, `length`, `%%` |
+| margin-right | Define o espaçamento externo direito do elemento | `auto`, `length`, `%%` |
+| margin-bottom | Define o espaçamento externo inferior do elemento | `auto`, `length`, `%%` |
+| margin-left | Define o espaçamento externo esquerdo do elemento | `auto`, `length`, `%%` |
+| margin-collapse | Especifica como mesclar as margens adjacentes | `collapse`, `separate` |
+| margin-inline | Define a margem horizontal (esquerda e direita) em elementos inline | `auto`, `length`, `%%` |
+| margin-inline-end | Define a margem à direita ou esquerda de um elemento inline dependendo da direção do texto | `auto`, `length`, `%%` |
+| margin-inline-start | Define a margem à direita ou esquerda de um elemento inline dependendo da direção do texto | `auto`, `length`, `%%` |
+| gap | Define a distância entre as linhas de grade em um layout de grade | `length`, `%%`, `normal` |
