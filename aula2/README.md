@@ -32,6 +32,25 @@ A seguir, serão listadas as unidades de medida válidas no CSS.
 | background-origin | Define a origem da imagem de fundo | `background-origin: border-box;` |
 | background-blend-mode | Define o modo de mesclagem da imagem de fundo com a cor de fundo | `background-blend-mode: multiply;` |
 
+# Textos
+
+| Atributo | Descrição | Exemplo |
+| --- | --- | --- |
+| color | Define a cor do texto | `color: blue;` |
+| font-family | Define a fonte utilizada | `font-family: Arial, sans-serif;` |
+| font-size | Define o tamanho da fonte | `font-size: 16px;` |
+| font-style | Define o estilo da fonte | `font-style: italic;` |
+| font-weight | Define a espessura da fonte | `font-weight: bold;` |
+| letter-spacing | Define o espaçamento entre caracteres | `letter-spacing: 1px;` |
+| line-height | Define a altura da linha de texto | `line-height: 1.5;` |
+| text-align | Define o alinhamento do texto | `text-align: center;` |
+| text-decoration | Define a decoração do texto (sublinhado, tachado, etc) | `text-decoration: underline;` |
+| text-transform | Transforma o texto em maiúsculo, minúsculo ou capitalizado | `text-transform: uppercase;` |
+| text-shadow | Define a sombra do texto | `text-shadow: 1px 1px 1px black;` |
+| white-space | Define como o espaçamento em branco é tratado | `white-space: nowrap;` |
+| word-break | Define como as palavras são quebradas em várias linhas | `word-break: break-all;` |
+| word-spacing | Define o espaçamento entre palavras | `word-spacing: 3px;` |
+
 # `<p>` Parágrafo `</p>`
 
 
