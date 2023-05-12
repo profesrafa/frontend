@@ -123,6 +123,24 @@ margin: unset;
 - `auto`: Deixa o navegador decidir o espaçamento automaticamente.
 
 # Padding
+```css
+/* Aplica-se à todas as bordas */
+padding: 1em;
+
+/* vertical | horizontal */
+padding: 5% 10%;
+
+/* superior | horizontal | inferior */
+padding: 1em 2em 2em;
+
+/* superior | direita | inferior | esquerda */
+padding: 2px 1em 0 1em;
+
+/* Valores globais */
+padding: inherit;
+padding: initial;
+padding: unset;
+```
 | Atributo | Descrição | Valores suportados |
 | --- | --- | --- |
 | padding-top | Define o espaçamento interno superior | `length`, `%`, `auto` |
