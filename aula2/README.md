@@ -106,13 +106,32 @@ margin: unset;
 ```
 | Atributo | Descrição | Valores Suportados |
 | --- | --- | --- |
-| margin | Define o espaçamento externo de todos os lados do elemento | `auto`, `length`, `%%` |
-| margin-top | Define o espaçamento externo superior do elemento | `auto`, `length`, `%%` |
-| margin-right | Define o espaçamento externo direito do elemento | `auto`, `length`, `%%` |
-| margin-bottom | Define o espaçamento externo inferior do elemento | `auto`, `length`, `%%` |
-| margin-left | Define o espaçamento externo esquerdo do elemento | `auto`, `length`, `%%` |
+| margin | Define o espaçamento externo de todos os lados do elemento | `auto`, `length`, `%` |
+| margin-top | Define o espaçamento externo superior do elemento | `auto`, `length`, `%` |
+| margin-right | Define o espaçamento externo direito do elemento | `auto`, `length`, `%` |
+| margin-bottom | Define o espaçamento externo inferior do elemento | `auto`, `length`, `%` |
+| margin-left | Define o espaçamento externo esquerdo do elemento | `auto`, `length`, `%` |
 | margin-collapse | Especifica como mesclar as margens adjacentes | `collapse`, `separate` |
-| margin-inline | Define a margem horizontal (esquerda e direita) em elementos inline | `auto`, `length`, `%%` |
-| margin-inline-end | Define a margem à direita ou esquerda de um elemento inline dependendo da direção do texto | `auto`, `length`, `%%` |
-| margin-inline-start | Define a margem à direita ou esquerda de um elemento inline dependendo da direção do texto | `auto`, `length`, `%%` |
-| gap | Define a distância entre as linhas de grade em um layout de grade | `length`, `%%`, `normal` |
+| margin-inline | Define a margem horizontal (esquerda e direita) em elementos inline | `auto`, `length`, `%` |
+| margin-inline-end | Define a margem à direita ou esquerda de um elemento inline dependendo da direção do texto | `auto`, `length`, `%` |
+| margin-inline-start | Define a margem à direita ou esquerda de um elemento inline dependendo da direção do texto | `auto`, `length`, `%` |
+| gap | Define a distância entre as linhas de grade em um layout de grade | `length`, `%`, `normal` |
+
+ **Nota**
+- `length`: Define o espaçamento em unidades de medida, como `px`, `em` ou `rem`.
+- `%`: Define o espaçamento como uma porcentagem do tamanho do elemento pai.
+- `auto`: Deixa o navegador decidir o espaçamento automaticamente.
+
+# Padding
+| Atributo | Descrição | Valores suportados |
+| --- | --- | --- |
+| padding-top | Define o espaçamento interno superior | `length`, `%`, `auto` |
+| padding-right | Define o espaçamento interno direito | `length`, `%`, `auto` |
+| padding-bottom | Define o espaçamento interno inferior | `length`, `%`, `auto` |
+| padding-left | Define o espaçamento interno esquerdo | `length`, `%`, `auto` |
+| padding | Define o espaçamento interno para todos os lados | `length`, `%`, `auto` |
+ 
+ **Nota**
+- `length`: Define o espaçamento em unidades de medida, como `px`, `em` ou `rem`.
+- `%`: Define o espaçamento como uma porcentagem do tamanho do elemento pai.
+- `auto`: Deixa o navegador decidir o espaçamento automaticamente.
